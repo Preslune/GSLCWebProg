@@ -23,3 +23,6 @@ Route::get('/home', function(){
 });
 
 Route::get('/drop',[DropController::class, 'index']);
+Route::get('/mods', function(){
+    return view('mods');
+});

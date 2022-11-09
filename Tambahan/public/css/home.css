@@ -5,6 +5,25 @@ body{
     margin: 0;
 }
 
+.logo{
+    padding: 40;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width: 15%;
+    height: 25%;
+}
+
+.summary{
+    background-color: rgb(141, 141, 129);;
+    text-align: center;
+    font-size: 72px;
+    padding-top: 50;
+    padding-bottom: 50;
+}
+
 .link{
     padding-left: 30;
 }
@@ -17,4 +36,18 @@ body{
 .linktext{
     color: white;
     font-size: 36px;
+    text-decoration: none;
+}
+
+.linkmods{
+    padding-top: 40;
+    color: white;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+.linkimage img{
+    padding-top: 10;
+    width: 20%;
+    height: 15%;
 }
